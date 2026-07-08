@@ -114,7 +114,7 @@ class Gradebook:
             return "B"
         elif avg >= 70:
             return "C"
-        elif avg >= 60:
+        elif avg >= 55:
             return "D"
         else:
             return "F"
