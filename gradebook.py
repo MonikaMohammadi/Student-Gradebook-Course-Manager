@@ -25,7 +25,7 @@ class Gradebook:
         student = self.students[student_id]
 
         if name:
-            student._Student__name = name  # or better: add setter
+            student._Student__name = name 
         if email:
             student.set_email(email)
 
